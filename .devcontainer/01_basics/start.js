@@ -20,6 +20,53 @@ console.log(typeof Number)
 let Number1="34abde"
 console.log(Number1)
 console.log(typeof Number1)
+/*
+let score = 33;
+console.log(score);                  
+console.log(typeof score)
+*/
+
+
+let score1 = "33";
+console.log(score1);                  
+console.log(typeof score1);            
+
+// Converting string to number
+let valueInNumber = Number(score1);
+console.log(typeof valueInNumber);     
+
+// If the string contains non-numeric characters, conversion fails
+let valuebe = "67Ac";
+console.log(valuebe);                 
+console.log(typeof valuebe);          
+
+let number1 = "45ac";
+let valueInnumber1 = Number(number1);
+console.log(valueInnumber1);           
+console.log(typeof valueInnumber1);   
+
+
+let number2=true
+console.log(number2)
+console.log(typeof number2)
+//boolean exp conversion
+
+let boleannumber4=1
+
+let booleanINnumber=Boolean( boleannumber4)
+console.log(boleannumber4)
+console.log( typeof boleannumber4)
+
+
+//1=> true; 0=>false
+//"" => false
+//"name"=>true
+
+
+let somenumber=33
+let stringnumber= String(somenumber)
+console.log(stringnumber)
+console.log(typeof stringnumber)
 
 
 
